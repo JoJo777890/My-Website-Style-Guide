@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('fonts/SourceCodePro-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('fonts/NunitoSans_7pt-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.ttf');
+}
+
+body {
+    margin: 0 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    border: 2px, solid, #22181c;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    width: 32%;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.warm-yellow {
+    background-color: #feb211;
+}
+
+.bright-white {
+    background-color: #f5f5f5;
+}
+
+.stone-grey {
+    background-color: #858786;
+}
+
+.night-black {
+    color: #f5f5f5;
+    background-color: #22181c;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro';
+}
+
+.nunito-sans {
+    font-family: 'Nunito Sans';
+}
+
+.poppins {
+    font-family: 'Poppins';
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+    /* text-align: center; */
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.font-label {
+    text-decoration: underline;
+}
+
+.font-regular {
+
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-italic {
+    font-style: italic;
+}
