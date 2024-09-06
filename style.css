@@ -66,6 +66,10 @@ body {
     font-family: 'Poppins';
 }
 
+.courier-new {
+    font-family: 'Courier New';
+}
+
 .font-panel {
     width: 45%;
     display: inline-block;
